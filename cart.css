@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom styles for the product details page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    background-color: rgba(22, 18, 16, 0.021);
+}
+
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Styling for navigation links */
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+.nav-item a:hover {
+    color: #0056b3;
+}
+
+.container-fluid {
+    background-color: rgba(22, 18, 16, 0.021);
+}
+
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the cart section */
+.cart {
+    padding: 80px 0;
+    /* Adjust padding as needed */
+}
+
+/* Styling for the section title */
+.section_title h1 {
+    font-size: 2.5rem;
+}
+
+/* Styling for the cart items container */
+.bg_cart_1 {
+    background-image: linear-gradient(rgb(35, 196, 236), rgba(9, 3, 13, 0.078));
+    /* Background color */
+    padding: 20px;
+    /* Padding */
+    border-radius: 15px;
+    /* Rounded corners */
+}
+
+/* Styling for the cart item rows */
+.row.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for the cart item images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    /* Rounded corners for images */
+}
+
+/* Styling for the cart item details */
+.d-flex.justify-content-between {
+    align-items: flex-start;
+}
+
+/* Styling for the quantity controls */
+.quantity {
+    width: 40px;
+    text-align: center;
+}
+
+/* Styling for the remove item link */
+.small.text-uppercase {
+    color: #dc3545;
+    /* Red color */
+}
+
+/* Styling for the order summary card */
+.col-md-4.rounded {
+    background-image: linear-gradient(rgb(35, 196, 236), rgba(9, 3, 13, 0.078));
+    /* Background color */
+    padding: 20px;
+    /* Padding */
+    border-radius: 15px;
+    /* Rounded corners */
+    color: #333;
+    /* Text color */
+}
+
+/* Styling for the order summary title */
+.list-group-item.d-flex.justify-content-between.align-items-center h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Styling for the total amount value */
+.list-group-item.d-flex.justify-content-between.align-items-center span strong {
+    font-size: 1.2rem;
+}
+
+/* Styling for the Go to Checkout button */
+.btn-primary.btn-block {
+    background-color: #007bff;
+    /* Blue color */
+    border-color: #007bff;
+    /* Blue border color */
+}
+
+/* Hover effect for buttons */
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+    /* Darker border color on hover */
+}
+
+
+/* Footer styles */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_title h3 {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: #007bff;
+    /* Change the color of the links on hover */
+}
+
+/* Style the copyright text */
+.border-top {
+    border-top: 1px solid #ddd;
+    /* Add a border on top of the copyright text */
+    padding-top: 10px;
+    /* Adjust the spacing above the copyright text */
+}
+
+/* Style the back-to-top button */
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    /* Adjust the vertical position of the button */
+    right: 30px;
+    /* Adjust the horizontal position of the button */
+}
+
+#button {
+    background-color: #fff;
+    /* Change the background color of the button */
+    border: 1px solid #007bff;
+    /* Change the border color of the button */
+    border-radius: 50%;
+    padding: 10px;
+    /* Adjust the size of the button */
+}
+
+#button:hover {
+    background-color: #007bff;
+    /* Change the background color of the button on hover */
+    color: #fff;
+    /* Change the color of the icon on hover */
+}
+
+/* Footer styles */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_title h3 {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: #007bff;
+    /* Change the color of the links on hover */
+}
+
+/* Style the copyright text */
+.border-top {
+    border-top: 1px solid #ddd;
+    /* Add a border on top of the copyright text */
+    padding-top: 10px;
+    /* Adjust the spacing above the copyright text */
+}
+
+/* Style the back-to-top button */
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    /* Adjust the vertical position of the button */
+    right: 30px;
+    /* Adjust the horizontal position of the button */
+}
+
+#button {
+    background-color: #fff;
+    /* Change the background color of the button */
+    border: 1px solid #007bff;
+    /* Change the border color of the button */
+    border-radius: 50%;
+    padding: 10px;
+    /* Adjust the size of the button */
+}
+
+#button:hover {
+    background-color: #007bff;
+    /* Change the background color of the button on hover */
+    color: #fff;
+    /* Change the color of the icon on hover */
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

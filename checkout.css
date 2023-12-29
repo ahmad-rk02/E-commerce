@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+}
+
+.nav-item a:hover {
+    color: #007bff;
+}
+
+/* Styling for navigation links */
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+ /* Apply styles to the Checkout section */
+.Checkout {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+/* Style the section title */
+.section_title {
+    margin-bottom: 30px;
+}
+
+/* Style the form elements */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    font-weight: normal;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style the order summary card */
+.bg_checkout_1 {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Style the list group items */
+.list-group-item {
+    border: none;
+    padding: 8px 0;
+}
+
+/* Style the total amount section */
+.list-group-item:last-child {
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+/* Apply responsive styles for different screen sizes */
+@media (max-width: 768px) {
+    .col-lg-8 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Footer styles */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_title h3 {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: #007bff;
+    /* Change the color of the links on hover */
+}
+
+/* Style the back-to-top button */
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    /* Adjust the vertical position of the button */
+    right: 30px;
+    /* Adjust the horizontal position of the button */
+}
+
+#button {
+    background-color: #fff;
+    /* Change the background color of the button */
+    border: 1px solid #007bff;
+    /* Change the border color of the button */
+    border-radius: 50%;
+    padding: 10px;
+    /* Adjust the size of the button */
+}
+
+#button:hover {
+    background-color: #007bff;
+    /* Change the background color of the button on hover */
+    color: #fff;
+    /* Change the color of the icon on hover */
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom styles for the product details page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    background-color: rgba(22, 18, 16, 0.021);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+  /* Styling for navigation links */
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+    transition: color 0.3s ease-in-out; /* Add smooth transition */
+  }
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.nav-item a:hover {
+    color: #007bff;
+}
+
+/* Custom styles for the shop by category section */
+.shop_by_category {
+    background-color: #f9f9f9;
+    /* Background color for the section */
+    padding: 40px 0;
+    /* Add some padding at the top and bottom */
+}
+
+/* Custom styles for the section title */
+.section_title {
+    margin-bottom: 30px;
+    /* Add some space between the title and the row of cards */
+}
+
+.section_title h1 {
+    font-size: 28px;
+    color: #333;
+    /* Title text color */
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+    /* Add an underline to the title */
+}
+
+/* Custom styles for the card */
+.card {
+    border: none;
+    height: 100%;
+    /* Remove border from the cards */
+}
+
+.card-img {
+    border-radius: 5px;
+    /* Rounded corners for the card image */
+}
+
+/* Custom styles for the card links */
+.card a {
+    display: block;
+    /* Make the link fill the entire card */
+}
+
+/* Custom styles for the card on hover */
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a slight shadow on hover */
+    transform: translateY(-5px);
+    /* Lift the card slightly on hover */
+}
+
+/* Custom styles for the card images */
+.card-img {
+    max-width: 100%;
+    height: fit-content;
+}
+
+/* Custom styles for small screens */
+@media (max-width: 767px) {
+
+    .mt-small-5,
+    .mb-small-5 {
+        margin-top: 5px !important;
+        /* Reduce top and bottom margins for small screens */
+        margin-bottom: 5px !important;
+    }
+}
+
+
+/* Style the Latest Products section container */
+.products {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f8f8f8;
+    /* Light gray background color */
+}
+
+/* Style the section title */
+.section_title h1 {
+    text-transform: capitalize;
+    /* Convert the text to capitalize */
+    text-decoration: underline;
+    /* Add an underline to the text */
+    text-decoration-color: #333;
+    /* Set the underline color to dark gray */
+}
+
+/* Style the individual product containers */
+.single_product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a shadow to the product containers */
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Style the product images */
+.product_img img {
+    max-width: 100%;
+    /* Make sure the images don't overflow the container */
+    height: auto;
+    /* Keep the image aspect ratio */
+}
+
+/* Style the new product badge */
+.product_img {
+    position: relative;
+}
+
+.new_product {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.badge {
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: #e91e63;
+    color: #ddd;
+}
+
+/* Styles for the star rating container */
+.product-ratting {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    color: gold;
+    /* Default star color (empty star) */
+    display: inline-block;
+    cursor: pointer;
+    /* Show the pointer cursor when hovering over the stars */
+}
+
+/* Styles for filled stars */
+.product-ratting i.fas.fa-star,
+.product-ratting i.far.fa-star.low-star:hover~i.fas.fa-star {
+    color: gold;
+    /* Change the star color to gold (or any other color of your choice) when hovered */
+}
+
+/* Style the product name link */
+.product-caption h4 a {
+    color: #007bff;
+    /* Set the link color */
+    text-decoration: none;
+    font-size: large;
+    /* Remove the underline */
+}
+
+.product-caption h4 a:hover {
+    color: #230994;
+}
+
+.single_product {
+    position: relative;
+}
+
+/* CSS for new badge */
+.new_product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* CSS to make the image responsive */
+.product_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the product price container */
+.price {
+    font-weight: bold;
+    /* Make the price bold */
+    font-size: 1.2rem;
+    /* Adjust the font size */
+}
+
+/* Style the currency symbol and price value separately */
+.price b {
+    margin-right: 5px;
+    /* Add some space between the currency symbol and price */
+}
+
+
+/* Style the margin for smaller screens (sm) */
+@media (max-width: 767.98px) {
+    .mt-small-5 {
+        margin-top: 2rem;
+    }
+
+    .mb-small-5 {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Add general styling for the entire section */
+
+#feature {
+    background-color: #bad0f0;
+    /* Change to the desired background color */
+    padding: 50px 0;
+    /* Adjust the padding as needed */
+}
+
+/* Style the section title */
+.section_title h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #333;
+    /* Change the color of the title text */
+}
+
+/* Style the individual feature boxes */
+.feature .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Adjust the spacing between the feature boxes */
+}
+
+.feature i {
+    color: #fff;
+    /* Change the color of the icons */
+    background-color: #07070851;
+    /* Change the background color of the icons */
+    border-radius: 50%;
+    padding: 15px;
+    /* Adjust the size of the icon circle */
+    margin-bottom: 15px;
+    /* Adjust the spacing between the icon and the title */
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    /* Change the color of the feature title */
+}
+
+.feature div {
+    color: #0c0b48;
+    /* Change the color of the feature description */
+}
+
+/* Add a hover effect on the feature boxes */
+.feature .col-md-4:hover {
+    box-shadow: 0 4px 8px rgba(245, 237, 237, 0.1);
+    /* Adjust the box shadow as desired */
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Apply padding for different screen sizes */
+.pl-5 {
+    padding-left: 1.25rem !important;
+    /* For medium and large screens */
+}
+
+.pl-small-15 {
+    padding-left: 0.9375rem !important;
+    /* For small screens */
+}
+
+/* Footer styles */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_title h3 {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: #007bff;
+    /* Change the color of the links on hover */
+}
+
+/* Style the copyright text */
+.border-top {
+    border-top: 1px solid #ddd;
+    /* Add a border on top of the copyright text */
+    padding-top: 10px;
+    /* Adjust the spacing above the copyright text */
+}
+
+/* Style the back-to-top button */
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    /* Adjust the vertical position of the button */
+    right: 30px;
+    /* Adjust the horizontal position of the button */
+}
+
+#button {
+    background-color: #fff;
+    /* Change the background color of the button */
+    border: 1px solid #007bff;
+    /* Change the border color of the button */
+    border-radius: 50%;
+    padding: 10px;
+    /* Adjust the size of the button */
+}
+
+#button:hover {
+    background-color: #007bff;
+    /* Change the background color of the button on hover */
+    color: #fff;
+    /* Change the color of the icon on hover */
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

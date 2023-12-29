@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Styling for navigation links */
+.nav-item a {
+    color: rgba(0, 0, 0, 0.163);
+    font-weight: 300;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+/* Hover effect for navigation links */
+.nav-item a:hover {
+    color: #007bff;
+    /* Change the color on hover */
+}
+/* Add your custom styles here */
+
+/* Style for section title */
+.section_title {
+    margin-bottom: 3rem;
+}
+
+/* Style for contact cards */
+.contact-card {
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+/* Style for contact form */
+#form {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+#form label {
+    font-weight: bold;
+}
+
+/* Style for submit button */
+#form button {
+    margin-top: 1rem;
+}
+
+/* Add more custom styles as needed */
+
+/* Footer styles */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_title h3 {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: #007bff;
+    /* Change the color of the links on hover */
+}
+
+/* Style the back-to-top button */
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    /* Adjust the vertical position of the button */
+    right: 30px;
+    /* Adjust the horizontal position of the button */
+}
+
+#button {
+    background-color: #fff;
+    /* Change the background color of the button */
+    border: 1px solid #007bff;
+    /* Change the border color of the button */
+    border-radius: 50%;
+    padding: 10px;
+    /* Adjust the size of the button */
+}
+
+#button:hover {
+    background-color: #007bff;
+    /* Change the background color of the button on hover */
+    color: #fff;
+    /* Change the color of the icon on hover */
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
